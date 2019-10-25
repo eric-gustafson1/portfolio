@@ -1,2 +1,3 @@
 # portfolio
-JavaScript, Materialize
+
+JavaScript, Bootswatch. jQuery
