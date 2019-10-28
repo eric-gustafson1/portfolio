@@ -15,37 +15,106 @@
   </head>
   <body>
     <div class="container">
+      <!-- NAVBAR -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Eric Gustafson</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link fas fa-user-alt" href="#"> About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fas fa-laptop-code" href=""> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fas fa-file-alt" href=""> Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fas fa-envelope" href=""> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END NAVBAR -->
+
+      <!-- About Card -->
       <div class="row">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/bioPic.jpg" class="card-img" alt="Eric Bio Pic" />
+            </div>
+            <div class="col-md-8">
+              <h3 class="card-header">Eric Gustafson</h3>
+              <div class="card-body">
+                <h5 class="card-title">Developer</h5>
+                <i class="fab fa-github fa-2x p-2"></i>
+                <i class="fab fa-linkedin-in fa-2x p-2"></i>
+                <!-- <h6 class="card-subtitle text-muted">Support card subtitle</h6> -->
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  <em> Hello, I'm Eric. </em> Full Stack Web Developer with a background as an Infrastructure-as-a-Service engineer working on a
+                  dispersed global teams.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul> -->
+          <div class="card-body">
+            <a href="#" class="card-link">Portfolio</a>
+            <a href="#" class="card-link">Resume</a>
+          </div>
+          <div class="card-footer text-muted">
+            weuxfya@gmail.com
+          </div>
+        </div>
+        <!-- <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div> -->
+      </div>
+      <!-- End About Card -->
+
+      <!-- <div class="row">
         <div class="col-3 pt-3 border border-primary side-bar">
           <h3 class="text-center">Eric Gustafson</h3>
-          <p class="text-center">
-            <em> Hello, I'm Eric. </em> Full Stack Web Developer with a background as an Infrastructure-as-a-Service engineer working on a dispersed
-            global teams.
-          </p>
+
           <div class="div text-center">
             <img class="img-fluid px-3 rounded-circle" src="img/bioPic.jpg" alt="" />
             <i class="fab fa-github fa-3x p-2"></i>
             <i class="fab fa-linkedin-in fa-3x p-2"></i>
           </div>
           <div class="div pl-3">
-            <!-- <a href="#" class="fas fa-user-alt">About</a> -->
             <a class="fas fa-user-alt text-muted fa-lg" href=""> About</a>
             <a class="fas fa-laptop-code text-muted fa-lg" href=""> Portfolio</a>
             <a class="fas fa-file-alt text-muted fa-lg" href=""> Resume</a>
             <a class="fas fa-envelope text-muted fa-lg" href=""> Contact</a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-9">
-          <!-- nested -->
-          <div class="row">
-            <div class="col-12 pt-3"></div>
-            <div class="div pl-4 pt-2">
-              <h1>Eric Gustafson</h1>
-              <h4>Developer</h4>
-              <p>
-                Full Stack Web Developer with a background as an Infrastructure-as-a-Service engineer working on a dispersed global team at Visa.
-                Experience with compute, storage, and virtualization. Master of Science in Computer Information Technology with an emphasis in
+      <!-- Experience with compute, storage, and virtualization. Master of Science in Computer Information Technology with an emphasis in
                 Software Engineering from Regis University - Denver. Certificate from the University of Denver in full stack web development including
                 HTML, CSS, Bootstrap 4, MongoDB, Express, React, and NodeJS. Certified in ITIL, LeanIT, Microsoft MCSE: Cloud, and TOGAF9.
                 Successfully operationalized a new virtualization platform at a Fortune 500 company. Independent contributor collaborating across
@@ -53,54 +122,57 @@
                 node hypervisor infrastructure spread across data centers in the US, UK, and Asia. Manage tasks with Jira and source code in
                 BitBucket. Author wiki to document environment configuration and troubleshooting for Operations teams. Contribute code to automation
                 efforts related to organization’s private cloud portal. Work closely with vendors on innovating existing infrastructure. Background
-                and technical skills provide a solid platform for both development and devops roles.
-              </p>
+                and technical skills provide a solid platform for both development and devops roles. -->
+
+      <!-- <div class="div border-left border-success pl-3">
+            <h1>What I do</h1>
+          </div> -->
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-3 px-1">
+          <div class="card border-primary mb-3">
+            <div class="card-header">Front End</div>
+            <div class="card-body">
+              <h4 class="card-title">Primary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="div border-left border-success pl-3">
-                <h1>What I do</h1>
-              </div>
+        </div>
+        <!-- end Card 1 -->
+        <!-- Card 2 -->
+        <div class="col-md-3 px-1">
+          <div class="card border-primary mb-3">
+            <div class="card-header">Back End</div>
+            <div class="card-body">
+              <h4 class="card-title">Primary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            <div class="col-4 pt-3">
-              <div class="div">
-                <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Primary card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+        <!-- end Card 2 -->
+        <!-- Card 3 -->
+        <div class="col-md-3 px-1">
+          <div class="card border-primary mb-3">
+            <div class="card-header">Credentials</div>
+            <div class="card-body">
+              <h4 class="card-title">Primary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-
-            <div class="col-4 pt-3">
-              <div class="div">
-                <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Primary card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-4 pt-3">
-              <div class="div">
-                <div class="card border-primary mb-3" style="max-width: 20rem;">
-                  <div class="card-header">Header</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Primary card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+        <!-- end Card 3 -->
+        <!-- Card 4 -->
+        <div class="col-md-3 px-1">
+          <div class="card border-primary mb-3">
+            <div class="card-header">Tools</div>
+            <div class="card-body">
+              <h4 class="card-title">Primary card title</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
       </div>
+      <!-- end Card 4 -->
     </div>
 
     <!-- Optional JavaScript -->
