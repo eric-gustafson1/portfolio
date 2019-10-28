@@ -1,3 +1,15 @@
 .container {
   padding-top: 60px;
 }
+
+.card {
+  min-height: 350px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.border-4 {
+  border-width: 4px !important;
+}
