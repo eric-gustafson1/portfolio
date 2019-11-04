@@ -4,7 +4,7 @@ A professional portfolio page to highlight skills through representative project
 
 # Description
 
-Portfolio page to display your dev skills.
+A responsive Portfolio page to display your dev skills.
 
 # Visuals
 
