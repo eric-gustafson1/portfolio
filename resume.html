@@ -35,10 +35,10 @@
               <a class="nav-link fas fa-user-alt" href="index.html"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fas fa-laptop-code text-success" href="portfolio.html"> Portfolio</a>
+              <a class="nav-link fas fa-laptop-code" href="portfolio.html"> Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fas fa-file-alt" href="resume.html"> Resume</a>
+              <a class="nav-link fas fa-file-alt text-success" href="resume.html"> Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fas fa-envelope" href="contact.html"> Contact</a>
@@ -47,9 +47,16 @@
         </div>
       </nav>
       <!-- END NAVBAR -->
-
-      <div class="container px-3 px-lg-5">
-          <article class="resume-wrapper p-5 mb-5 my-5 shadow-lg">
+      <div class="div pl-3 mt-5">
+            <h1>Online Resume</h1>
+            <form method="get" action="resume.pdf" target="_new">
+                <button class="btn btn-link btn-success" type="submit"><i class="fas fa-file-pdf"></i> Download PDF Version</button>
+            </form>
+          </div>
+      
+      
+      <div class="container px-3">
+          <article class="resume-wrapper p-5 mb-5 my-1 shadow-lg">
               <div class="resume-header"> 
                   <div class="row">
                       <div class="resume-title col-md-8">
@@ -60,7 +67,7 @@
                           <ul class="mb-0">
                               <li class="mb-2"><i class="fas fa-phone-square fa-lg mr-2 "></i>720.346.5341</li>
                               <li class="mb-2"><i class="fas fa-envelope-square fa-lg mr-2"></i>weuxfya@gmail.com</li>
-                              <li class="mb-2"><i class="fas fa-map-marker-alt fa-lg mr-2"></i>Denver, CO</li>
+                              <li class="mb-2"><i class="fas fa-map-marker-alt fa-lg mr-2"></i>Highlands Ranch, CO</li>
                           </ul>
                       </div> <!-- end resume contact-->
                   </div> <!--end row-->
@@ -85,9 +92,10 @@
               <hr>
               <div class="resume-body">
                   <div class="row">
-                      <div class="resume-main col-12 col lg-8 col-xl-9 pr-0 pr-lg-5">
+                      <div class="resume-main col-md-8 pr-0 pr-lg-4">
+                            <!-- <div class="resume-main col-12 col lg-8 col-xl-9 pr-0 pr-lg-5"> -->
                           <section class="work-section py-3">
-                              <h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
+                              <h3 class="text-uppercase resume-section-heading mb-4 border-left border-success border-4 pl-3">Work Experience</h3>
                               <div class="item mb-3">
                                   <div class="item-heading row align-items-center mb-2">
                                       <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Sr Staff Systems Engineer</h4>
@@ -136,23 +144,26 @@
 
                       </div> <!--end resume main-->
 
-                      <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+                      <aside class="resume-aside col-md-4 px-lg-3 pb-lg-4">
+                            <!-- <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4"> -->
                           <section class="skills-section py-3">
                               <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
                               <div class="item">
-                                  <h4 class="item-title">Technical</h4>
+                                  <h4 class="item-title border-left border-success border-4 pl-3">Technical</h4>
                                   <ul class="list-unstyled resume-skills-list">
                                       <li class="mb-2">JavaScript/jQuery</li>
                                       <li class="mb-2">React</li>
                                       <li class="mb-2">Node.js</li>
                                       <li class="mb-2">Express</li>
                                       <li class="mb-2">Agile</li>
+                                      <li class="mb-2">MongoDB</li>
+                                      <li class="mb-2">HTML and CSS</li>
                                   </ul>
 
                               </div> <!--end item-->
 
                               <div class="item">
-                                    <h4 class="item-title">Professional</h4>
+                                    <h4 class="item-title border-left border-success border-4 pl-3">Professional</h4>
                                     <ul class="list-unstyled resume-skills-list">
                                         <li class="mb-2"></li>
                                         <li class="mb-2">Effective Communication</li>
@@ -165,7 +176,7 @@
                                 </div> <!--end item-->
 
                                 <div class="item">
-                                        <h4 class="item-title">Education</h4>
+                                        <h4 class="item-title border-left border-success border-4 pl-3">Education</h4>
                                         <ul class="list-unstyled resume-education-list">
                                             <li class="mb-3">
                                                 <div class="resume-degree font-weight-bold">MS Computer Information Systems</div>
@@ -182,19 +193,39 @@
 
                                         <ul class="list-unstyled resume-education-list">
                                                 <li class="mb-3">
-                                                    <div class="resume-degree font-weight-bold">BA Geology</div>
+                                                    <div class="">BA Geology</div>
                                                     <div class="resume-degree-org text-muted">University of Montana, Missoula MT </div>
                                                 </li>
                                             </ul>
       
                                     </div> <!--end item-->
+
+                                    <div class="item">
+                                            <h4 class="item-title border-left border-success border-4 pl-3">Certification</h4>
+                                            <ul class="list-unstyled resume-education-list">
+                                                <li class="mb-3">
+                                                    <div class="mb-3">The Open Group Architecture Framework (TOGAF) 9</div>
+                                                    <div class="mb-3">ITIL Foundation</div>
+                                                    <div class="mb-3">ITIL Intermediate Certificate in IT Service Operation</div>
+                                                    <div class="mb-3">Lean IT Foundation</div>
+                                                    <div class="mb-3">Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure (MCSE: Cloud)</div>
+                                                    <div class="mb-3"></div>
+                                                </li>
+                                            </ul>
+                                        </div> <!--end item-->
                           </section>
                       </aside>
-
                   </div> <!-- end row-->
-
               </div> <!--end resume body-->
+              <div class="resume-footer text-center">
+                  <ul class="list-inline mx-auto mb-0 d-inline-block text-muted">
+                      <li class="list-inline-item mb-lg-0 mr-3"><a href="https://github.com/eric-gustafson1" target="_blank"><i class="fab fa-github fa-2x p-2 text-success" ></i></a>
+                      </li>
+                      <li class="list-inline-item mb-lg-0 mr-3"><a href="https://www.linkedin.com/in/eric-gustafson-4006b4/" target="_blank"><i class="fab fa-linkedin-in fa-2x p-2 text-success"></i></a></li>
+                  </ul>
+                
 
+              </div> <!--End Resume footer-->
           </article>
       </div>  <!-- end container -->
       
