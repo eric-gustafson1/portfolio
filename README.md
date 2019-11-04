@@ -4,7 +4,7 @@ A professional portfolio page to highlight skills through representative project
 
 # Description
 
-Answer questions to test your knowledge of JavaScript.
+Portfolio page to display your dev skills.
 
 # Visuals
 
@@ -12,26 +12,28 @@ Answer questions to test your knowledge of JavaScript.
 
 The About page features and overview. This includes a bio and overview of skill set.
 
-![StartPage](img/about.png)
+![about](img/about.png)
 
 ### Portfolio page
 
 The Portfolio page features projects. Each project is represented with a picture or gif.
 Each project has a link to the Github repo and the project hosted on Github pages.
 
-![PlayPage](img/portfolio.png)
+![portfolio](img/portfolio.png)
 
 ### Resume page
 
 The Resume page contains an online version of the resume in the web site's theme.
 The page also contains a link to a PDF version of the resume optimized for printing.
 
-![PlayPage](img/resume.png)
+![resume](img/resume.png)
 
 ### Contact page
 
 The Contact page offers a contact form and contact information.  
 Contact can be made using the form or the contact information
+
+![contact](img/contact.png)
 
 # Usage
 
