@@ -13,3 +13,7 @@ ul {
 .border-4 {
   border-width: 4px !important;
 }
+
+.profile-image{
+  width: 200px;
+}
